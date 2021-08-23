@@ -1,0 +1,160 @@
+body {
+  /* height: 3000px; */
+}
+html {
+  scroll-behavior: smooth;
+}
+section {
+  padding-top: 5rem;
+}
+
+/* navbar */
+.navbar {
+  width: 100%;
+}
+
+.bg-active {
+  background-color: #fff !important;
+  color: #00b7c4 !important;
+  border: 0px;
+  transition: 0.3s;
+}
+
+.bg-custom {
+  background-color: #fff !important;
+  color: #00b7c4 !important;
+  border: 1px solid #00b7c4;
+  transition: 0.3s;
+}
+
+.bg-custom:hover {
+  background-color: #00b7c4 !important;
+  border: 1px solid rgba(0, 0, 0, 0);
+  color: #fff !important;
+}
+
+/* body */
+.ketebalan-sedang {
+  font-weight: 700;
+}
+
+.gambar {
+  display: none;
+}
+
+.deskripsi {
+  max-width: 400px;
+}
+
+.button {
+  background-color: #00b7c4 !important;
+  border: none;
+  color: #fff;
+  padding: 12px 18px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: rgb(60, 218, 218) !important;
+  color: #fff;
+}
+
+.download a {
+  text-decoration: none;
+  color: gray;
+  font-size: 14px;
+}
+
+.img {
+  width: 500px;
+  z-index: -1;
+}
+
+.p-biru {
+  color: #00b7c4;
+}
+
+.link {
+  color: gray;
+  transition: 0.3s;
+}
+
+.link:hover {
+  color: #96baff;
+}
+
+/* service */
+#service {
+  padding-bottom: 9rem;
+  background-color: #017294;
+  min-height: 630px;
+}
+
+#service h2 {
+  color: #fff;
+}
+
+/* footer */
+footer {
+  background-color: #017294;
+  margin-top: 120px;
+  color: #fff;
+  font-size: medium;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+/* Mengatur Responsive */
+@media screen and (max-width: 425px) {
+  .ukuran-font-1 {
+    font-size: 15px;
+  }
+  .ukuran-font-2 {
+    font-size: 25px;
+  }
+  .service img {
+    height: 100;
+    width: 100;
+  }
+}
+@media screen and (max-width: 630px) {
+  .img {
+    display: none;
+    width: 500px;
+  }
+  .gambar {
+    display: block;
+  }
+  .ukuran-font-kecil {
+    font-size: 16px;
+  }
+  .ukuran-font {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .img {
+    display: none;
+    width: 500px;
+  }
+  .gambar {
+    display: block;
+  }
+}
+@media screen and (max-width: 992px) {
+  .img {
+    width: 300px;
+    z-index: -1;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .img {
+    width: 500px;
+    z-index: -1;
+  }
+}
